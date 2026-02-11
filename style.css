@@ -1,0 +1,54 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 10px;
+}
+
+form { 
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input {
+  width: 50%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #14a2c2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #14a2c2;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #14a2c2;
+  margin: 5px 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #ddd;
+}
+
+#place-details {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
