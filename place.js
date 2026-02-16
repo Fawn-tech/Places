@@ -1,4 +1,4 @@
-function Plcace(location, landmarks, timeOfYear, notes) {
+function Place(location, landmarks, timeOfYear, notes) {
     this.location = location;
     this.landmarks = landmarks;
     this.timeOfYear = timeofYear;
