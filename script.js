@@ -1,7 +1,6 @@
 let places = [];
 
-document.getElementById('place-form').addEventListener('submit', function(event) {
-  event.preventDefault();
+document.getElementById('place-form').addEventListener('submit', function(event) {event.preventDefault();
   const location = document.getElementById('location').value;
   const landmarks = document.getElementById('landmarks').value.split(',').map(s => s.trim());
   const timeOfYear = document.getElementById('timeOfYear').value;
