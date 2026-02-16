@@ -11,7 +11,7 @@ document.getElementById('place-form').addEventListener('submit', function(event)
   displayPlaces();
   document.getElementById('place-form').reset();
 });
-
+//Constructor function
 function displayPlaces() {
   const list = document.getElementById('places-list');
   list.innerHTML = '';
